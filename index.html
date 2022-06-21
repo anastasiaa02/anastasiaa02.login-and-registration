@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+  <div class="box">
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'SIGN_IN')"><p class="sign">SIGN IN</p></button>
+      <button class="tablinks" onclick="openCity(event, 'SIGN_UP')"><p class="sign">SIGN UP</p></button>
+    </div>
+    
+    <div id="SIGN_IN" class="tabcontent">
+        <form method="post" id="ajax_form" action="" >
+            <div class="info">
+                <p class="placehold">USERNAME</p>
+              <input type="text" name="name">
+                <p class="placehold">PASSWORD</p>
+              <input type="password" name="password">
+              <div class="switch_div"><div class="switch-btn switch-on"></div><p class="switch">KEEP ME SIGNED IN</p></div>
+            </div>
+            <input type="button" id="btn" value="SIGN IN">
+          </form>
+          <span class="bottom">______________________________________________</span>
+          <button class="footer">Forgot your password?</button>
+    </div>
+    
+    <div id="SIGN_UP" class="tabcontent">
+        <form method="post" id="ajax_form" action="" >
+            <div class="info">
+                <p class="placehold">USERNAME</p>
+              <input type="text" name="name">
+                <p class="placehold">PASSWORD</p>
+              <input type="password" name="password">
+                <p class="placehold">REPEAT PASSWORD</p>
+              <input type="password" name="password2">
+                <p class="placehold">EMAIL ADDRESS</p>
+              <input type="text" name="email">
+            </div>
+            <input type="button" id="btn" value="SIGN UP">
+          </form>
+    </div>
+</div>
+<br>
+<div id="result_form"></div> 
+</body>
+</html>

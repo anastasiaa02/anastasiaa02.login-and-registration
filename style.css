@@ -1,0 +1,162 @@
+.tab {
+    overflow: hidden;
+    border: none;
+    background-color: transparent;
+    margin-left: 57px;
+    padding-top: 20px;
+}
+.tab button {
+    background-color: transparent;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: 0.3s;
+    font-size: 16px;
+}
+.tab button:hover {
+    border-bottom-color: #1161EE;;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+.tab button.active {
+    border-bottom-color: #1161EE;;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+.tabcontent {
+    display: none;
+    border: none;
+    border-top: none;
+}
+.box{
+    width: 500px;
+    height: 600px;
+    background-image: url("Group2.png");
+    background-size: cover;
+    margin: 0 auto;
+    padding-top: 0px;
+}
+
+input{
+    font-family: Franklin Gothic Medium;
+    font-size: 13pt;
+    margin-top: 0px;
+    background-color: rgba(190,196,242, 0.3);
+    color: rgba(190,196,242, 0.5);
+    border-radius: 50px;
+    border: none;
+    width: 370px;
+    height: 38px;
+}
+#btn{
+    font-family: Franklin Gothic Medium;
+    color: white;
+    background-color: #1161EE;
+    width: 370px;
+    height: 38px;
+    text-align: center;
+    font-size: 12pt;
+    outline: none;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+#btn:hover{
+    transform: scale(1.03);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.placehold{
+    font-family: Franklin Gothic Medium;
+    color: #969ABB;
+    color: rgba(205,205,205, 0.5);
+    font-size: 12pt;
+}
+.sign{
+    font-family: Franklin Gothic Medium;
+    color: white;
+    font-size: 18pt;
+    margin-bottom: -10px;
+}
+form{
+    margin-left: 13%;
+}
+.bottom{
+    font-family: Franklin Gothic Medium;
+    color: #969ABB;
+    color: rgba(190,196,242, 0.5);
+    font-size: 12pt;
+    margin-left: 13%;
+}
+.footer{
+    font-family: Franklin Gothic Medium;
+    color: #969ABB;
+    color: rgba(190,196,242, 0.5);
+    font-size: 14pt;
+    margin-top: 40px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    margin-left: 31%;
+}
+.footer:hover{
+    transform: scale(1.03);
+}
+
+#result_form{
+    font-size: 18px;
+    color: black;
+    font-family: Segoe UI;
+    position: fixed;
+    margin-top: -500px;
+}
+.switch-btn {
+    display: inline-block;
+    width: 70px; 
+    height: 35px; 
+    border-radius: 50px;
+    background-color: rgba(190,196,242, 0.3);
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition-duration: 300ms; 
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+  .switch-btn::after {
+    content: "";
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background: #fff;
+    top: 7.5px; 
+    left: 6px; 
+    transition-duration: 300ms; 
+    position: absolute;
+    z-index: 1;
+  }
+  .switch-on {
+    background-color: #1161EE;
+  }
+  .switch-on::after {
+    left: 45px;
+  }
+.switch{
+    float: right;
+    font-family: Franklin Gothic Medium;
+    color: #969ABB;
+    color: rgba(205,205,205, 0.5);
+    font-size: 12pt;
+    margin-right: 200px;
+    margin-top: 33px;
+}
